@@ -2,15 +2,14 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // Get Supabase URL from environment or use the one from the error
   const supabaseUrl = process.env.VITE_SUPABASE_URL || 'https://bifxsysfjdpcczhzvego.supabase.co';
   
   return {
     server: {
-      host: "::",
-      port: 8080,
+      host: "0.0.0.0",
+      port: 5000,
+      allowedHosts: true,
       hmr: {
         overlay: false
       },
