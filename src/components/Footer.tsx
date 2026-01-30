@@ -22,7 +22,6 @@ const Footer: React.FC = () => {
               <li><Link to="/about" className="hover:text-white transition-colors text-sm md:text-base">Nosotros</Link></li>
               <li><Link to="/features" className="hover:text-white transition-colors text-sm md:text-base">Características</Link></li>
               <li><Link to="/how-it-works" className="hover:text-white transition-colors text-sm md:text-base">Cómo Funciona</Link></li>
-              <li><Link to="/pricing" className="hover:text-white transition-colors text-sm md:text-base">Precios</Link></li>
             </ul>
           </div>
           <div>

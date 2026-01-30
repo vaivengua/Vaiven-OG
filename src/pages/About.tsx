@@ -17,10 +17,10 @@ const About: React.FC = () => {
   };
 
   const stats = [
-    { number: "10,000+", label: "Transportistas Activos", color: "from-primary to-secondary" },
-    { number: "50,000+", label: "Envíos Completados", color: "from-accent to-green-600" },
-    { number: "500+", label: "Ciudades Conectadas", color: "from-secondary to-blue-600" },
-    { number: "99%", label: "Satisfacción del Cliente", color: "from-blue-500 to-cyan-500" }
+    { number: "100", label: "Transportistas Activos", color: "from-primary to-secondary" },
+    { number: "243", label: "Envíos Completados", color: "from-accent to-green-600" },
+    { number: "25", label: "Ciudades Conectadas", color: "from-secondary to-blue-600" },
+    { number: "97%", label: "Satisfacción del Cliente", color: "from-blue-500 to-cyan-500" }
   ];
 
   const values = [
@@ -123,7 +123,7 @@ const About: React.FC = () => {
         </div>
       </section>
 
-      {/* Timeline/History Section */}
+      {/*{/* Timeline/History Section
       <section aria-label="Historia de VAIVEN" className="py-12 md:py-20 bg-neutral-50" tabIndex={-1}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 md:mb-16">
@@ -138,20 +138,20 @@ const About: React.FC = () => {
               Un recorrido por los hitos que han marcado nuestro crecimiento y liderazgo en logística colaborativa.
             </p>
           </div>
-          {/* Timeline */}
+          {/* Timeline
           <div className="relative flex flex-col md:flex-row items-center justify-center gap-12 md:gap-0">
-            {/* Timeline line */}
+            {/* Timeline line
             <div className="hidden md:block absolute left-1/2 top-0 h-full w-1 bg-gradient-to-b from-primary/30 via-primary to-secondary/30 rounded-full z-0" style={{transform: 'translateX(-50%)'}} aria-hidden="true"></div>
-            {/* Timeline items */}
+            {/* Timeline items
             {[
               {
-                year: '2019',
+                year: '2022',
                 title: 'Fundación',
-                desc: 'VAIVEN nace con la visión de digitalizar el transporte de carga en LATAM.',
+                desc: 'VAIVEN nace con la visión de digitalizar el transporte de carga en Guatemala por falta de conección entre cliente y transportista.',
                 icon: <Sparkles className="h-6 w-6 text-primary" />,
               },
               {
-                year: '2020',
+                year: '2023',
                 title: 'Primeros 1,000 envíos',
                 desc: 'Alcanzamos nuestro primer gran hito de envíos exitosos en la plataforma.',
                 icon: <Truck className="h-6 w-6 text-primary" />,
@@ -186,7 +186,7 @@ const About: React.FC = () => {
                     <CardDescription className="text-neutral-500 text-base min-h-[56px] flex items-center justify-center leading-normal">{milestone.desc}</CardDescription>
                   </CardContent>
                 </Card>
-                {/* Timeline connector dots */}
+                {/* Timeline connector dots
                 {idx < arr.length - 1 && (
                   <div className="hidden md:block absolute right-0 left-0 mx-auto top-full w-3 h-3 bg-primary rounded-full border-4 border-white z-20" style={{marginTop: '-0.75rem'}} aria-hidden="true"></div>
                 )}
@@ -197,7 +197,7 @@ const About: React.FC = () => {
       </section>
 
       {/* Team/Leadership Section */}
-      <section aria-label="Equipo de VAIVEN" className="py-20 bg-white" tabIndex={-1}>
+      {/*<section aria-label="Equipo de VAIVEN" className="py-20 bg-white" tabIndex={-1}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-semibold mb-6">
@@ -253,7 +253,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Values Section */}
       <section className="py-20 bg-neutral-50">
@@ -315,7 +315,7 @@ const About: React.FC = () => {
 
 
       {/* Testimonials & Partners Section */}
-      <section aria-label="Testimonios y Socios de VAIVEN" className="py-20 bg-white" tabIndex={-1}>
+      {/*<section aria-label="Testimonios y Socios de VAIVEN" className="py-20 bg-white" tabIndex={-1}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-semibold mb-6">
@@ -329,7 +329,7 @@ const About: React.FC = () => {
               La confianza y satisfacción de nuestros usuarios y socios es nuestro mayor logro.
             </p>
           </div>
-          {/* Testimonials */}
+          {/* Testimonials 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
             {[
               {
@@ -371,7 +371,7 @@ const About: React.FC = () => {
               </Card>
             ))}
           </div>
-          {/* Partner Logos */}
+          {/* Partner Logos
           <div className="flex flex-wrap justify-center items-center gap-8" role="list">
             {[
               'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
@@ -386,7 +386,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Call-to-Action Banner */}
       <section aria-label="Llamado a la acción - Únete a VAIVEN" className="py-16 px-4 bg-gradient-to-r from-primary to-secondary" tabIndex={-1}>
@@ -400,9 +400,9 @@ const About: React.FC = () => {
               <Button size="lg" className="bg-primary hover:bg-primary/90 transition-colors">
                 Regístrate Gratis
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors">
+              {/*<Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors">
                 Solicita una Demo
-              </Button>
+              </Button>*/}
             </div>
           </Card>
         </div>
