@@ -397,7 +397,7 @@ const About: React.FC = () => {
               <p className="text-lg text-neutral-600">Únete a la red líder en transporte colaborativo y lleva tu negocio al siguiente nivel.</p>
             </div>
             <div className="flex flex-col md:flex-row gap-4 md:ml-8">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 transition-colors">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 transition-colors" onClick={() => navigate('/register')}>
                 Regístrate Gratis
               </Button>
               {/*<Button size="lg" variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors">
