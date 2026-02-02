@@ -47,7 +47,7 @@ const Features: React.FC = () => {
     { icon: <CreditCard className="h-8 w-8 text-white" />, title: "Facturación Auto", description: "Genera facturas automáticamente" },
     { icon: <Zap className="h-8 w-8 text-white" />, title: "Respuesta Rápida", description: "Conexiones instantáneas" },
     { icon: <Globe className="h-8 w-8 text-white" />, title: "Cobertura Total", description: "15+ países en América Latina" },
-    { icon: <Award className="h-8 w-8 text-white" />, title: "Calidad Premium", description: "Servicio certificado ISO 9001" },
+    ,
     { icon: <Smartphone className="h-8 w-8 text-white" />, title: "App Móvil", description: "Acceso desde cualquier dispositivo" }
   ];
 
@@ -151,7 +151,7 @@ const Features: React.FC = () => {
                   { label: 'Soporte 24/7', cc: true, trad: false, comp: false },
                   { label: 'Facturación Automática', cc: true, trad: false, comp: true },
                   { label: 'Optimización de Rutas con IA', cc: true, trad: false, comp: false },
-                  { label: 'App Móvil', cc: true, trad: false, comp: true },
+      {/*{ label: 'App Móvil', cc: true, trad: false, comp: true }*/},
                 ].map((row, idx) => (
                   <tr key={idx} className="bg-white hover:bg-primary/5 transition-colors">
                     <td className="py-3 px-2 font-semibold text-neutral-800 text-left">{row.label}</td>

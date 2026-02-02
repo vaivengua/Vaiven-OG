@@ -207,7 +207,7 @@ const Contact: React.FC = () => {
       </section>
 
       {/* Map Section */}
-      <section className="py-20 bg-white">
+      {/*<section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-semibold mb-6">
@@ -232,7 +232,7 @@ const Contact: React.FC = () => {
             </div>
           </Card>
         </div>
-      </section>
+      </section>*/}
 
       <Footer />
     </div>
