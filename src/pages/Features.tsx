@@ -151,7 +151,6 @@ const Features: React.FC = () => {
                   { label: 'Soporte 24/7', cc: true, trad: false, comp: false },
                   { label: 'Facturación Automática', cc: true, trad: false, comp: true },
                   { label: 'Optimización de Rutas con IA', cc: true, trad: false, comp: false },
-      {/*{ label: 'App Móvil', cc: true, trad: false, comp: true }*/},
                 ].map((row, idx) => (
                   <tr key={idx} className="bg-white hover:bg-primary/5 transition-colors">
                     <td className="py-3 px-2 font-semibold text-neutral-800 text-left">{row.label}</td>
