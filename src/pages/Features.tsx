@@ -89,25 +89,25 @@ const Features: React.FC = () => {
               {
                 icon: <Truck className="h-6 w-6 md:h-7 md:w-7 text-primary" />, 
                 label: 'Envíos Completados', 
-                value: '50,000+', 
+                value: '500+', 
                 color: 'bg-primary/10 text-primary'
               },
               {
                 icon: <Users className="h-6 w-6 md:h-7 md:w-7 text-accent" />, 
                 label: 'Transportistas Activos', 
-                value: '10,000+', 
+                value: '70+', 
                 color: 'bg-accent/10 text-accent'
               },
               {
                 icon: <Globe className="h-6 w-6 md:h-7 md:w-7 text-secondary" />, 
                 label: 'Cobertura', 
-                value: '500+ ciudades', 
+                value: '50+ ciudades', 
                 color: 'bg-secondary/10 text-secondary'
               },
               {
                 icon: <Award className="h-6 w-6 md:h-7 md:w-7 text-yellow-600" />, 
                 label: 'Satisfacción', 
-                value: '99%', 
+                value: '97%', 
                 color: 'bg-yellow-500/10 text-yellow-600'
               }
             ].map((kpi, idx) => (
